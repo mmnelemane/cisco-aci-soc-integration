@@ -13,14 +13,6 @@
     </div>
 </div>
 
-
-<!-- .slide: data-state="normal" id="sequel" data-timing="30" -->
-
-<div class="qrcode" id="qrcode-sequel"/>
-<h3 style="text-align: center"><a href="https://github.com/mmnelemane/cisco-aci-concepts-and-soc-integration" target="_blank"
-       style="font-size: 0.85em" id="sequel">https://github.com/mmnelemane/cisco-aci-concepts-and-soc-integration</a></h3>
-
-
 <!-- .slide: data-state="normal" id="agenda" data-timing="30" -->
 ## Agenda
 
