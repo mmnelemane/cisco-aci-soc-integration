@@ -1,0 +1,79 @@
+.reveal .slides {
+    .diagram-and-list {
+        .diagrams {
+            width: 45%;
+            float: left;
+
+            img {
+                margin: 0% auto 20px auto;
+                display: block;
+                width: 400px;
+            }
+    }
+
+        > ul {
+            width: 50%;
+            font-size: 38pt;
+        }
+    }
+
+    @import '_opflex';
+    @import '_apic-concept';
+
+    .contact-info {
+        position: absolute;
+        top: 80%;
+        font-size: 18pt;
+
+        address {
+            float: left;
+            padding: 0 30px;
+            margin:  0 30px;
+            height: 110px;
+            border-left: solid 1px grey;
+        }
+    }
+
+    .call-to-action {
+        position: relative;
+        top: 10%;
+        height: 80%;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        .inside {
+            font-weight: normal;
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            width: 70%;
+            padding: 5% 10%;
+            background-color: $light-neutral;
+        }
+
+        .outside {
+            position: absolute;
+            top: 80%;
+            left: 8%;
+        }
+    }
+
+    #disclaimers {
+        height: 80%;
+        margin: 10% 10% 0 0;
+        text-align: left;
+
+        h3 {
+            color: white;
+            font-size: 1.8rem;
+            margin: 2rem 0 0.5 0;
+        }
+
+        p {
+            color: white;
+            font-size: 1.2rem;
+        }
+    }
+}

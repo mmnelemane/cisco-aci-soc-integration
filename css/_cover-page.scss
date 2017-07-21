@@ -1,0 +1,94 @@
+// Styling for cover page of presentation
+
+.cover .reveal {
+    .slides {
+        $bg-height: 100%;
+        $left-margin: 0%;
+        $top-margin: $left-margin * 4 / 3;
+        $width: 100% - (2 * $left-margin);
+        $y-offset: 0;
+        margin: 0;
+
+        background:
+            url(../images/SUSE/SUSE-logo-white.png)
+               10% 11%              //  x/y positions
+             / 11% 11%              //  x/y sizes
+                no-repeat,
+            url(../images/NTT-logo.svg)
+               26% 11%              //  x/y positions
+             / 12% 12%              //  x/y sizes
+                no-repeat,
+            url(../images/SUSE/bg-green.png)
+                50% #{$y-offset}    //  x/y positions
+              / $width $bg-height   //  x/y sizes
+                no-repeat;
+
+        position: relative;
+
+        .title {
+            position: absolute;
+            top: 43%;
+            h1, h2, h3, h4, h5, h6 {
+                color: white;
+            }
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            h2 {
+                font-size: 3rem;
+            }
+
+            h3 {
+                font-size: 2rem;
+            }
+
+            a {
+                color: $dark-purple !important;
+            }
+        }
+
+        .presenters {
+            position: absolute;
+            top: 78%;
+            width: 100%;
+
+            .presenter {
+                width: 50%;
+                position: absolute;
+            }
+
+            .presenter-2 {
+                left: 50%;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                color: white;
+                a {
+                    color: white !important;
+                }
+            }
+
+            h3 {
+                font-size: 2rem;
+            }
+
+            .name {
+                font-weight: bold;
+            }
+        }
+
+        text-align: inherit;
+
+        h2, h3, h4, h5, h6 {
+            font-weight: normal;
+        }
+    }
+
+    h1, h2, h3 {
+        margin-bottom: 0em;
+    }
+
+    @include no-slide-numbers;
+}
