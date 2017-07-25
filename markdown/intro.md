@@ -2,7 +2,6 @@
 <div class="title">
     <h1>Cisco Application Centric Infrastructure</h1>
     <h2 style="margin-bottom: 50px;">Overview and Integration with OpenStack</h2>
-    </h3>
 </div>
 
 <div class="row presenters">
