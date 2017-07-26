@@ -1,9 +1,9 @@
 <!-- .slide: data-state="section-break" id="apic-concept" data-timing="10" -->
-## ACI - Application Centric Infrastructure
+# ACI - Application Centric Infrastructure
 
 
 <!-- .slide: data-state="normal" id="apic-concept" data-menu-title="APIC-ACI" class="aci" data-timing="40" -->
-        # ACI - APIC interaction
+## ACI - APIC interaction
 
 * Allows requirements to define network
 * The APIC manages the ACI multi-tenant fabric
@@ -15,7 +15,7 @@
 
 
 <!-- .slide: data-state="normal" id="apic-concept" data-menu-title="APIC-ACI" class="aci" data-timing="40" -->
-# ACI Fabric
+## ACI Fabric
 
 * Includes Cisco Nexus 9000 Series modular switches, APIC host.
 * Run in Leaf/Spine ACI fabric mode.
@@ -54,7 +54,7 @@ Note:
 
 
 <!-- .slide: data-state="normal" id="apic-concept" data-menu-title="APIC-ACI" class="aci" data-timing="40" -->
-# ACI Policy Model
+## ACI Policy Model
 
 * Specifies application requirements policies
 * model-driven framework

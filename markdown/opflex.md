@@ -1,5 +1,5 @@
 <!-- .slide: data-state="section-break" id="opflex" data-timing="10" -->
-## Opflex - Control Protocol
+# Opflex - Control Protocol
 
 * A Policy-driven system to control a large set of physical and virtual devices.
 * It works on the basis of a common Model understood by the controller and the agents which communicate with the policy elements.
@@ -15,4 +15,7 @@ Note:
 <figure>
     <img alt="Opflex with OpenDayLight and OpenVswitch"
         data_src="images/opflex-model.jpg" />
+     <figcaption>
+        Cisco ACI Opflex model
+     </figcaption>
 </figure>
