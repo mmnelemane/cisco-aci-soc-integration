@@ -59,8 +59,14 @@ Note:
 </figure>
 
 
-<!-- .slide: data-state="normal" id="aci-policy-model" data-menu-title="ACI Policy Model" class="aci" data-timing="40" -->
+<!-- .slide: data-state="normal" id="aci-policy-model" data-menu-title="ACI Policy Model" class="diagram-and-list" data-timing="40" -->
 ## ACI Policy Model
+
+<div class="diagrams">
+    <img class="policy-model"
+        data-src="images/aci-policy-model.jpg"
+        alt="ACI Policy Model" />
+</div>
 
 * Specifies application requirements policies
 * model-driven framework
@@ -69,10 +75,6 @@ Note:
 * VRF and BD provide private network
  
 
-<figure>
-    <img alt="ACI Policy Model"
-        data-src="images/aci-policy-model.jpg" />
-</figure>
 
 Note:
 
