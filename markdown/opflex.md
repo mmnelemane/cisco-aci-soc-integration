@@ -14,8 +14,5 @@ Note:
 
 <figure>
     <img alt="Opflex with OpenDayLight and OpenVswitch"
-        data_src="images/opflex-model.jpg" />
-     <figcaption>
-        Cisco ACI Opflex model
-     </figcaption>
+        data-src="images/opflex-model.jpg" style="width: 100%" />
 </figure>

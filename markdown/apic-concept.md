@@ -2,7 +2,7 @@
 # ACI - Application Centric Infrastructure
 
 
-<!-- .slide: data-state="normal" id="apic-concept" data-menu-title="APIC-ACI" class="aci" data-timing="40" -->
+<!-- .slide: data-state="normal" id="aci-overview" data-menu-title="APIC-ACI" class="aci" data-timing="40" -->
 ## ACI - APIC interaction
 
 * Allows requirements to define network
@@ -10,11 +10,11 @@
 
 <figure>
     <img alt="Application Requirements Define the network"
-        data_src="images/aci-overview.jpg" />
+        data-src="images/aci-overview.jpg" style="width: 100%" />
 </figure>
 
 
-<!-- .slide: data-state="normal" id="apic-concept" data-menu-title="APIC-ACI" class="aci" data-timing="40" -->
+<!-- .slide: data-state="normal" id="aci-fabric" data-menu-title="ACI Fabric" class="aci" data-timing="40" -->
 ## ACI Fabric
 
 * Includes Cisco Nexus 9000 Series modular switches, APIC host.
@@ -25,17 +25,15 @@
 
 <figure>
     <img alt="ACI Fabric Overview"
-        data_src="images/aci-fabric.jpg" />
+        data-src="images/aci-fabric.jpg" style="width: 100%" />
 </figure>
+
+<!-- .slide: data-state="normal" id="aci-topology" data-menu-title="ACI Physical Topology" class="aci" data-timing="40" -->
+## ACI Physical Topology
 
 <figure>
     <img alt="ACI Physical Topology"
-        data_src="images/physical-topology.jpg" />
-</figure>
-
-<figure>
-    <img alt="APIC Controller Screen"
-        data_src="images/APIC-controller.jpg" />
+        data-src="images/physical-topology.jpg" style="width: 100%" />
 </figure>
 
 Note:
@@ -52,8 +50,16 @@ Note:
 * When an administrator creates a policy in the APIC that represents a configration, the APIC updates the logical model. 
 * The APIC then performs the intermediate step of creating a fully elaborated policy that it pushes into all the switch nodes where the concrete model is updated.
 
+<!-- .slide: data-state="normal" id="apic-ui" data-menu-title="APIC Controller Interface" class="aci" data-timing="40" -->
+## APIC Controller UI
 
-<!-- .slide: data-state="normal" id="apic-concept" data-menu-title="APIC-ACI" class="aci" data-timing="40" -->
+<figure>
+    <img alt="APIC Controller Screen"
+        data-src="images/APIC-controller.jpg" style="width: 100%" />
+</figure>
+
+
+<!-- .slide: data-state="normal" id="aci-policy-model" data-menu-title="ACI Policy Model" class="aci" data-timing="40" -->
 ## ACI Policy Model
 
 * Specifies application requirements policies
@@ -65,7 +71,7 @@ Note:
 
 <figure>
     <img alt="ACI Policy Model"
-        data_src="images/aci-policy-model.jpg" />
+        data-src="images/aci-policy-model.jpg" />
 </figure>
 
 Note:
