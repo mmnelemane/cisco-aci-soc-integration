@@ -2,3 +2,6 @@ shellinaboxd.screen.pid
 /.sass-cache
 /css/*.css.map
 /css/*.css
+!/css/animate.css
+!/css/shellinabox.css
+!/css/bootstrap.min.css
