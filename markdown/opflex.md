@@ -14,5 +14,5 @@ Note:
 
 <figure>
     <img alt="Opflex with OpenDayLight and OpenVswitch"
-        data-src="images/opflex-model.jpg" style="width: 100%" />
+        data-src="images/opflex-model.jpg" style="display: flex; justify-content: center; width: 65%;height: 55%;margin-left: 20px;margin-bottom: 80px;" />
 </figure>

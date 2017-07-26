@@ -10,7 +10,7 @@
 
 <figure>
     <img alt="Application Requirements Define the network"
-        data-src="images/aci-overview.jpg" style="width: 100%" />
+        data-src="images/aci-overview.jpg" style="width: 68%; height: 60%; display: flex; justify-content: center;" />
 </figure>
 
 
@@ -25,15 +25,16 @@
 
 <figure>
     <img alt="ACI Fabric Overview"
-        data-src="images/aci-fabric.jpg" style="width: 100%" />
+        data-src="images/aci-fabric.jpg" style="width: 68%; height: 60%; display: flex; justify-content: center;" />
 </figure>
+
 
 <!-- .slide: data-state="normal" id="aci-topology" data-menu-title="ACI Physical Topology" class="aci" data-timing="40" -->
 ## ACI Physical Topology
 
 <figure>
     <img alt="ACI Physical Topology"
-        data-src="images/physical-topology.jpg" style="width: 100%" />
+        data-src="images/physical-topology.jpg" style="width: 68%; height: 60%; display: flex; justify-content: center;" />
 </figure>
 
 Note:
@@ -50,12 +51,13 @@ Note:
 * When an administrator creates a policy in the APIC that represents a configration, the APIC updates the logical model. 
 * The APIC then performs the intermediate step of creating a fully elaborated policy that it pushes into all the switch nodes where the concrete model is updated.
 
+
 <!-- .slide: data-state="normal" id="apic-ui" data-menu-title="APIC Controller Interface" class="aci" data-timing="40" -->
 ## APIC Controller UI
 
 <figure>
     <img alt="APIC Controller Screen"
-        data-src="images/APIC-controller.jpg" style="width: 100%" />
+        data-src="images/APIC-controller.jpg" style="width: 68%; height: 60%; display: flex; justify-content: center;" />
 </figure>
 
 
@@ -74,7 +76,6 @@ Note:
 * Grouping on the basis of tenants
 * VRF and BD provide private network
  
-
 
 Note:
 
