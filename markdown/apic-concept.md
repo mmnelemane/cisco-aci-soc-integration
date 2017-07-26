@@ -14,8 +14,14 @@
 </figure>
 
 
-<!-- .slide: data-state="normal" id="aci-fabric" data-menu-title="ACI Fabric" class="aci" data-timing="40" -->
+<!-- .slide: data-state="normal" id="aci-fabric" data-menu-title="ACI Fabric" class="diagram-and-list" data-timing="40" -->
 ## ACI Fabric
+
+<div class="diagrams">
+    <img class="aci-fabric"
+        alt="ACI Fabric Overview"
+        data-src="images/aci-fabric.jpg" />
+</div>
 
 * Includes Cisco Nexus 9000 Series modular switches, APIC host.
 * Run in Leaf/Spine ACI fabric mode.
@@ -23,10 +29,6 @@
 * Uses 2 hops for cross-leaf
 * Uses an Object-Oriented Operating System
 
-<figure>
-    <img alt="ACI Fabric Overview"
-        data-src="images/aci-fabric.jpg" style="width: 68%; height: 60%; display: flex; justify-content: center;" />
-</figure>
 
 
 <!-- .slide: data-state="normal" id="aci-topology" data-menu-title="ACI Physical Topology" class="aci" data-timing="40" -->
