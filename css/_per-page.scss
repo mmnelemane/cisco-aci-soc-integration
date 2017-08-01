@@ -1,13 +1,15 @@
 .reveal .slides {
     .diagram-and-list {
         .diagrams {
-            width: 135%;
+            width: 145%;
             float: left;
+            height: 145%;
 
             img {
                 margin: 0% auto 20px auto;
                 display: block;
-                width: 600px;
+                width: 800px;
+                height: 600px;
             }
     }
 
@@ -19,6 +21,7 @@
 
     @import '_opflex';
     @import '_apic-concept';
+    @import '_opflex-ml2';
     @import '_neutron-services';
 
     .contact-info {
