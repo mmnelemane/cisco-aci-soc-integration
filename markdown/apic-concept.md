@@ -17,18 +17,17 @@
 <!-- .slide: data-state="normal" id="aci-fabric" data-menu-title="ACI Fabric" class="diagram-and-list" data-timing="40" -->
 ## ACI Fabric
 
-<div class="diagrams">
-    <img class="aci-fabric"
-        alt="ACI Fabric Overview"
-        data-src="images/aci-fabric.jpg" />
-</div>
-
 * Includes Cisco Nexus 9000 Series modular switches, APIC host.
 * Run in Leaf/Spine ACI fabric mode.
 * Consistent low-latency forwarding across high BW links (40 GB - 100 GB)
 * Uses 2 hops for cross-leaf
 * Uses an Object-Oriented Operating System
 
+<div class="diagrams">
+    <img class="aci-fabric"
+        data-src="images/aci-fabric.jpg" 
+        alt="ACI Fabric Overview" />
+</div>
 
 
 <!-- .slide: data-state="normal" id="aci-topology" data-menu-title="ACI Physical Topology" class="aci" data-timing="40" -->

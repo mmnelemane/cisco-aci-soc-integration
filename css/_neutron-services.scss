@@ -1,0 +1,19 @@
+#optimized-services {
+    img {
+    }
+
+    figure {
+        display: table;
+        margin-left: 100px;
+
+        img {
+            margin: 0;
+            width: 1000px;
+        }
+
+        figcaption {
+            font-size: 14pt;
+            text-align: right;
+        }
+    }
+}
