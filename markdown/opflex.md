@@ -1,5 +1,9 @@
 <!-- .slide: data-state="section-break" id="opflex" data-timing="10" -->
-# Opflex - Control Protocol
+# Opflex
+
+
+<!-- .slide: data-state="normal" id="opflex-model" data-menu-title="Opflex Model" class="opflex" data-timing="40" -->
+## OpFlex - the Protocol
 
 * A Policy-driven system to control a large set of physical and virtual devices.
 * It works on the basis of a common Model understood by the controller and the agents which communicate with the policy elements.

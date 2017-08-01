@@ -1,9 +1,6 @@
 <!-- .slide: data-state="section-break" id="neutron-services" data-timing="10" -->
 # Distributed Neutron Services
 
-Note:
- - A deepdive into each Distributed service offered by ACI OpFlex Architecture.
-
 
 <!-- .slide: data-state="normal" id="nat-external-routing" data-menu-title="NAT and External Routing" class="optimized-services" data-timing="40" -->
 ## OVS NAT and External Routing
