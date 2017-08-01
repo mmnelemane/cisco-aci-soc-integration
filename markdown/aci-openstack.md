@@ -13,7 +13,7 @@
 * Can use VXLAN or VLAN encapsulations
 * Uses a modified OpenVSwitch package and local software agents on each compute host
 
-<div class="diagrams">
+<div class="opflex-openstack">
   <img class="opflex-ml2"
       data-src="images/opflexml2-openstack.jpg"
       alt="OpenStack with ACI architecture with OpFlex ML2" />
@@ -28,7 +28,7 @@ Note:
 <!-- .slide: data-state="normal" id="opflex-agent" data-menu-title="Opflex Agent Architecture on Compute" class="diagram-and-list" data-timing="40" -->
 ## Opflex Agent on OpenStack Compute
 
-<div class="diagrams">
+<div class="opflex-openstack">
   <img class="opflex-ml2"
       data-src="images/opflexml2-openstack.jpg"
       alt="OpenStack with ACI architecture with OpFlex ML2" />
@@ -52,7 +52,7 @@ Note:
 * DHCP - Distributed DORA functionality and optimized mode
 * Metadata Proxy - option to use distributed or traditional approach 
 
-<div class="diagrams">
+<div class="opflex-openstack">
   <img class="distributed-neutron"
       data-src="images/distributed-neutron.jpg"
       alt="Logical OpenStack Network Connectivity with Distributed Neutron Services" />

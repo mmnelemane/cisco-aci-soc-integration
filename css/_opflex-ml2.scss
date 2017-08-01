@@ -6,9 +6,10 @@
         margin-bottom: 100px;
     }
 
-    figure {
-        display: table;
-        margin-left: 100px;
+    div.opflex-openstack {
+        width: 100%;
+        height: 90%;
+        position: relative;
 
         img.opflex-ml2 {
             margin: 0;
@@ -33,10 +34,8 @@
             margin-left: 20px;
             margin-bottom: 20px;
         }
-
-        figcaption {
-            font-size: 14pt;
-            text-align: right;
-        }
+        
+        font-size: 18pt;
+        text-align: right;
     }
 }
