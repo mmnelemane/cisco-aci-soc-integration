@@ -5,19 +5,19 @@
 <!-- .slide: data-state="normal" id="opflex-ml2" data-menu-title="Opflex ML2 Software Architecture" class="diagram-and-list" data-timing="40" -->
 ## OpenStack with ACI and OpFlex ML2
 
-* <!-- .element: class="fragment" -->
-  Typically uses: 
-  * a Nexus 9000 Spine/Leaf topology, 
-* <!-- .element: class="fragment" -->
-  * an APIC cluster and 
-* <!-- .element: class="fragment" -->
-  * a group of servers 
-* <!-- .element: class="fragment" -->
-  ML2 uses Opflex as a new network_type
-* <!-- .element: class="fragment" -->
-  Can use VXLAN or VLAN encapsulations
-* <!-- .element: class="fragment" -->
-  Uses a modified OpenVSwitch package and local software agents on each compute host
+*   <!-- .element: class="fragment" -->
+    Typically uses: 
+    *   a Nexus 9000 Spine/Leaf topology, 
+*   <!-- .element: class="fragment" -->
+    *   an APIC cluster and 
+*   <!-- .element: class="fragment" -->
+    *   a group of servers 
+*   <!-- .element: class="fragment" -->
+    ML2 uses Opflex as a new network_type
+*   <!-- .element: class="fragment" -->
+    Can use VXLAN or VLAN encapsulations
+*   <!-- .element: class="fragment" -->
+    Uses a modified OpenVSwitch package and local software agents on each compute host
 
 <div class="opflex-openstack">
   <img class="opflex-ml2"
@@ -40,12 +40,12 @@ Note:
       alt="OpenStack with ACI architecture with OpFlex ML2" />
 </div>
 
-* <!-- .element: class="fragment" -->
-  neutron-opflex-agent receives endpoint information from OpenStack through ML2 driver
-* <!-- .element: class="fragment" -->
-  Endpoint files are located at /var/lib/opflex-agent-ovs/endpoints
-* <!-- .element: class="fragment" -->
-  Agent-ovs programs the OVS
+*   <!-- .element: class="fragment" -->
+    neutron-opflex-agent receives endpoint information from OpenStack through ML2 driver
+*   <!-- .element: class="fragment" -->
+    Endpoint files are located at /var/lib/opflex-agent-ovs/endpoints
+*   <!-- .element: class="fragment" -->
+    Agent-ovs programs the OVS
 
 Note:
 - The agent-ovs uses the endpoint information to resolve policy for the endpoints through the OpFlex Proxy on the connected ACI Leaf switch.
@@ -56,14 +56,14 @@ Note:
 <!-- .slide: data-state="normal" id="distributed-neutron" data-menu-title="Distributed Neutron Services" class="diagram-and-list" data-timing="40" -->
 ## Distributed Neutron Services
 
-* <!-- .element: class="fragment" -->
-  NAT for External Networks
-* <!-- .element: class="fragment" -->
-  Layer 3 Forwarding - local traffic for same-tenant instances on the node
-* <!-- .element: class="fragment" -->
-  DHCP - Distributed DORA functionality and optimized mode
-* <!-- .element: class="fragment" -->
-  Metadata Proxy - option to use distributed or traditional approach 
+*   <!-- .element: class="fragment" -->
+    NAT for External Networks
+*   <!-- .element: class="fragment" -->
+    Layer 3 Forwarding - local traffic for same-tenant instances on the node
+*   <!-- .element: class="fragment" -->
+    DHCP - Distributed DORA functionality and optimized mode
+*   <!-- .element: class="fragment" -->
+    Metadata Proxy - option to use distributed or traditional approach 
 
 <div class="opflex-openstack">
   <img class="distributed-neutron"
