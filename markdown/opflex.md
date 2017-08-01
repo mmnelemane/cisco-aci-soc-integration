@@ -5,8 +5,11 @@
 <!-- .slide: data-state="normal" id="opflex-model" data-menu-title="Opflex Model" class="opflex" data-timing="40" -->
 ## OpFlex - the Protocol
 
+<!-- .element: class="fragment" -->
 * A Policy-driven system to control a large set of physical and virtual devices.
+<!-- .element: class="fragment" -->
 * It works on the basis of a common Model understood by the controller and the agents which communicate with the policy elements.
+<!-- .element: class="fragment" -->
 * The APIC uses JSON-RPC over TCP
 
 Note:

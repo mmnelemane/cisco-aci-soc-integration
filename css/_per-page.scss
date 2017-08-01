@@ -1,21 +1,19 @@
 .reveal .slides {
     .diagram-and-list {
         .diagrams {
-            width: 145%;
+            width: 45%;
             float: left;
-            height: 145%;
 
             img {
                 margin: 0% auto 20px auto;
                 display: block;
-                width: 800px;
-                height: 600px;
+                width: 400px;
             }
-    }
+        }
 
         > ul {
-            width: 25%;
-            font-size: 14pt;
+            width: 50%;
+            font-size: 38pt;
         }
     }
 
@@ -62,6 +60,13 @@
             top: 80%;
             left: 8%;
         }
+    }
+
+    #fragment {
+        height: 80%;
+        margin: 10% 10% 0 0;
+        text-align: right;
+        font-size: 0.25rem;
     }
 
     #disclaimers {

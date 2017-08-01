@@ -5,7 +5,9 @@
 <!-- .slide: data-state="normal" id="aci-overview" data-menu-title="APIC-ACI" class="aci" data-timing="40" -->
 ## ACI - APIC interaction
 
+<!-- .element: class="fragment" -->
 * Allows requirements to define network
+<!-- .element: class="fragment" -->
 * The APIC manages the ACI multi-tenant fabric
 
 <figure>
@@ -23,10 +25,15 @@
         alt="ACI Fabric Overview" />
 </div>
 
+<!-- .element: class="fragment" -->
 * Includes Cisco Nexus 9000 Series modular switches, APIC host.
+<!-- .element: class="fragment" -->
 * Run in Leaf/Spine ACI fabric mode.
+<!-- .element: class="fragment" -->
 * Consistent low-latency forwarding across high BW links (40 GB - 100 GB)
+<!-- .element: class="fragment" -->
 * Uses 2 hops for cross-leaf
+<!-- .element: class="fragment" -->
 * Uses an Object-Oriented Operating System
 
 
@@ -71,10 +78,15 @@ Note:
         alt="ACI Policy Model" />
 </div>
 
+<!-- .element: class="fragment" -->
 * Specifies application requirements policies
+<!-- .element: class="fragment" -->
 * model-driven framework
+<!-- .element: class="fragment" -->
 * Each unit is a Managed Object (MO)
+<!-- .element: class="fragment" -->
 * Grouping on the basis of tenants
+<!-- .element: class="fragment" -->
 * VRF and BD provide private network
  
 
