@@ -1,6 +1,10 @@
 <!-- .slide: data-state="section-break" id="neutron-services" data-timing="10" -->
 # Distributed Neutron Services
 
+Note:
+ - A deepdive into each Distributed service offered by ACI OpFlex Architecture.
+
+
 <!-- .slide: data-state="normal" id="nat-external-routing" data-menu-title="NAT and External Routing" class="optimized-services" data-timing="40" -->
 ## OVS NAT and External Routing
 
@@ -26,9 +30,9 @@ Note:
         data-src="images/optimized-dhcp.jpg" style="display: flex; justify-content: center; width: 65%;height: 55%;margin-left: 20px;margin-bottom: 80px;" />
 </figure>
 
-
 Note:
 - The distributed services communicate over the Management network to the Neutron server for allocation of IP Addressing and DHCP options.
+
 
 <!-- .slide: data-state="normal" id="opflex-metadata" data-menu-title="OpFlex Metadata Proxy" class="optimized-services" data-timing="40" -->
 ## Optimized Metadata Services
@@ -37,7 +41,6 @@ Note:
     <img alt="OpFlex based Metadata Proxy Architecture"
         data-src="images/optimized-metadata.jpg" style="display: flex; justify-content: center; width: 65%;height: 55%;margin-left: 20px;margin-bottom: 80px;" />
 </figure>
-
 
 Note:
 - The agent-ovs service reads the OpFlex service file and programs a flow in OVS to direct Metadata service requests to the local neutron-metadata-agent. 
