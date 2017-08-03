@@ -2,7 +2,7 @@
 # ACI-OpenStack integration
 
 
-<!-- .slide: data-state="normal" id="opflex-ml2" data-menu-title="Opflex ML2 Software Architecture" class="diagram-and-list" data-timing="40" -->
+<!-- .slide: data-state="normal" id="opflex-ml2-1" data-menu-title="Opflex ML2 Software Architecture" class="aci-openstack" data-timing="40" -->
 ## OpenStack with ACI and OpFlex ML2
 
 *   <!-- .element: class="fragment" -->
@@ -19,7 +19,7 @@
 *   <!-- .element: class="fragment" -->
     Uses a modified OpenVSwitch package and local software agents on each compute host
 
-<!-- .slide: data-state="normal" id="opflex-ml2" data-menu-title="Opflex ML2 Software Architecture" class="diagram-and-list" data-timing="40" -->
+<!-- .slide: data-state="normal" id="opflex-ml2-2" data-menu-title="Opflex ML2 Software Architecture" class="aci-openstack" data-timing="40" -->
 ## OpenStack with ACI and OpFlex ML2
 
 <div class="opflex-openstack">
@@ -34,7 +34,7 @@ Note:
 
 
 
-<!-- .slide: data-state="normal" id="opflex-agent" data-menu-title="Opflex Agent Architecture on Compute" class="diagram-and-list" data-timing="40" -->
+<!-- .slide: data-state="normal" id="opflex-agent-1" data-menu-title="Opflex Agent Architecture on Compute" class="aci-openstack" data-timing="40" -->
 ## Opflex Agent on OpenStack Compute
 
 <div class="opflex-openstack">
@@ -43,7 +43,7 @@ Note:
       alt="OpenStack with ACI architecture with OpFlex ML2" />
 </div>
 
-<!-- .slide: data-state="normal" id="opflex-agent" data-menu-title="Opflex Agent Architecture on Compute" class="diagram-and-list" data-timing="40" -->
+<!-- .slide: data-state="normal" id="opflex-agent-2" data-menu-title="Opflex Agent Architecture on Compute" class="aci-openstack" data-timing="40" -->
 ## Opflex Agent on OpenStack Compute
 
 *   <!-- .element: class="fragment" -->
@@ -59,7 +59,7 @@ Note:
 - Non-local policies are enforced on the upstream leaf switch.
 
 
-<!-- .slide: data-state="normal" id="distributed-neutron" data-menu-title="Distributed Neutron Services" class="diagram-and-list" data-timing="40" -->
+<!-- .slide: data-state="normal" id="distributed-neutron-1" data-menu-title="Distributed Neutron Services" class="aci-openstack" data-timing="40" -->
 ## Distributed Neutron Services
 
 *   <!-- .element: class="fragment" -->
@@ -71,7 +71,7 @@ Note:
 *   <!-- .element: class="fragment" -->
     Metadata Proxy - option to use distributed or traditional approach 
 
-<!-- .slide: data-state="normal" id="distributed-neutron" data-menu-title="Distributed Neutron Services" class="diagram-and-list" data-timing="40" -->
+<!-- .slide: data-state="normal" id="distributed-neutron-2" data-menu-title="Distributed Neutron Services" class="aci-openstack" data-timing="40" -->
 ## Distributed Neutron Services
 
 <div class="opflex-openstack">

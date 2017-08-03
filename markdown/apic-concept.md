@@ -16,7 +16,7 @@
 </figure>
 
 
-<!-- .slide: data-state="normal" id="aci-fabric" data-menu-title="ACI Fabric" class="diagram-and-list" data-timing="40" -->
+<!-- .slide: data-state="normal" id="aci-fabric-1" data-menu-title="ACI Fabric" class="aci" data-timing="40" -->
 ## ACI Fabric
 
 <div class="apic-concept">
@@ -25,7 +25,7 @@
         alt="ACI Fabric Overview" />
 </div>
 
-<!-- .slide: data-state="normal" id="aci-fabric" data-menu-title="ACI Fabric" class="diagram-and-list" data-timing="40" -->
+<!-- .slide: data-state="normal" id="aci-fabric-2" data-menu-title="ACI Fabric" class="aci" data-timing="40" -->
 ## ACI Fabric
 
 *   <!-- .element: class="fragment" -->
@@ -72,7 +72,7 @@ Note:
 </figure>
 
 
-<!-- .slide: data-state="normal" id="aci-policy-model" data-menu-title="ACI Policy Model" class="diagram-and-list" data-timing="40" -->
+<!-- .slide: data-state="normal" id="aci-policy-model-1" data-menu-title="ACI Policy Model" class="aci" data-timing="40" -->
 ## ACI Policy Model
 
 <div class="apic-concept">
@@ -81,7 +81,7 @@ Note:
         alt="ACI Policy Model" />
 </div>
 
-<!-- .slide: data-state="normal" id="aci-policy-model" data-menu-title="ACI Policy Model" class="diagram-and-list" data-timing="40" -->
+<!-- .slide: data-state="normal" id="aci-policy-model-2" data-menu-title="ACI Policy Model" class="aci" data-timing="40" -->
 ## ACI Policy Model
 
 *   <!-- .element: class="fragment" -->
