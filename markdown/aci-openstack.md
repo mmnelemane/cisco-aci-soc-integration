@@ -19,6 +19,9 @@
 *   <!-- .element: class="fragment" -->
     Uses a modified OpenVSwitch package and local software agents on each compute host
 
+<!-- .slide: data-state="normal" id="opflex-ml2" data-menu-title="Opflex ML2 Software Architecture" class="diagram-and-list" data-timing="40" -->
+## OpenStack with ACI and OpFlex ML2
+
 <div class="opflex-openstack">
   <img class="opflex-ml2"
       data-src="images/opflexml2-openstack.jpg"
@@ -39,6 +42,9 @@ Note:
       data-src="images/opflexml2-openstack.jpg"
       alt="OpenStack with ACI architecture with OpFlex ML2" />
 </div>
+
+<!-- .slide: data-state="normal" id="opflex-agent" data-menu-title="Opflex Agent Architecture on Compute" class="diagram-and-list" data-timing="40" -->
+## Opflex Agent on OpenStack Compute
 
 *   <!-- .element: class="fragment" -->
     neutron-opflex-agent receives endpoint information from OpenStack through ML2 driver
@@ -64,6 +70,9 @@ Note:
     DHCP - Distributed DORA functionality and optimized mode
 *   <!-- .element: class="fragment" -->
     Metadata Proxy - option to use distributed or traditional approach 
+
+<!-- .slide: data-state="normal" id="distributed-neutron" data-menu-title="Distributed Neutron Services" class="diagram-and-list" data-timing="40" -->
+## Distributed Neutron Services
 
 <div class="opflex-openstack">
   <img class="distributed-neutron"

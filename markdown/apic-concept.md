@@ -25,6 +25,9 @@
         alt="ACI Fabric Overview" />
 </div>
 
+<!-- .slide: data-state="normal" id="aci-fabric" data-menu-title="ACI Fabric" class="diagram-and-list" data-timing="40" -->
+## ACI Fabric
+
 *   <!-- .element: class="fragment" -->
     Includes Cisco Nexus 9000 Series modular switches, APIC host.
 *   <!-- .element: class="fragment" -->
@@ -77,6 +80,9 @@ Note:
         data-src="images/aci-policy-model.jpg"
         alt="ACI Policy Model" />
 </div>
+
+<!-- .slide: data-state="normal" id="aci-policy-model" data-menu-title="ACI Policy Model" class="diagram-and-list" data-timing="40" -->
+## ACI Policy Model
 
 *   <!-- .element: class="fragment" -->
     Specifies application requirements policies
