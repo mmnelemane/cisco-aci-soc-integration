@@ -43,16 +43,18 @@ Note:
 
 <figure>
   <img alt="OpenStack with ACI architecture with OpFlex ML2" 
-      data-src="images/opflexml2-openstack.jpg"
+      data-src="images/opflex-agent.jpg"
 />
 </figure>
 
 Note:
-- Description in next slide
+- The agent-ovs uses the endpoint information to resolve policy for the endpoints through the OpFlex Proxy on the connected ACI Leaf switch.
+- The agent-ovs then programs policy on OVS using Open Flow for policies that can be enforced locally.
+- Non-local policies are enforced on the upstream leaf switch.
 
 
 <!-- .slide: data-state="normal" id="opflex-agent-2" data-menu-title="Opflex Agent Architecture on Compute" class="aci" data-timing="40" -->
-## Opflex Agent on OpenStack Compute
+## OpFlex Agent on OpenStack Compute
 
 *   <!-- .element: class="fragment" -->
     neutron-opflex-agent receives endpoint information from OpenStack through ML2 driver
@@ -60,11 +62,6 @@ Note:
     Endpoint files are located at /var/lib/opflex-agent-ovs/endpoints
 *   <!-- .element: class="fragment" -->
     Agent-ovs programs the OVS
-
-Note:
-- The agent-ovs uses the endpoint information to resolve policy for the endpoints through the OpFlex Proxy on the connected ACI Leaf switch.
-- The agent-ovs then programs policy on OVS using Open Flow for policies that can be enforced locally.
-- Non-local policies are enforced on the upstream leaf switch.
 
 
 <!-- .slide: data-state="normal" id="distributed-neutron-1" data-menu-title="Distributed Neutron Services" class="aci-openstack" data-timing="40" -->
