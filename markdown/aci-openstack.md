@@ -2,7 +2,7 @@
 # ACI-OpenStack integration
 
 
-<!-- .slide: data-state="normal" id="opflex-ml2-1" data-menu-title="Opflex ML2 Software Architecture" class="aci-openstack" data-timing="40" -->
+<!-- .slide: data-state="normal" id="opflex-ml2-1" data-menu-title="Opflex ML2 Software Architecture" class="aci" data-timing="40" -->
 ## OpenStack with ACI and OpFlex ML2
 
 *   <!-- .element: class="fragment" -->
@@ -19,7 +19,11 @@
 *   <!-- .element: class="fragment" -->
     Uses a modified OpenVSwitch package and local software agents on each compute host
 
-<!-- .slide: data-state="normal" id="opflex-ml2-2" data-menu-title="Opflex ML2 Software Architecture" class="aci-openstack" data-timing="40" -->
+Note:
+- Check the figure on the next slide
+
+
+<!-- .slide: data-state="normal" id="opflex-ml2-2" data-menu-title="Opflex ML2 Software Architecture" class="aci" data-timing="40" -->
 ## OpenStack with ACI and OpFlex ML2
 
 <figure>
@@ -29,13 +33,13 @@
 </figure>
 
 Note:
+
 - The APIC mechanism driver translates Neutron networking elements such as a network, subnet, router or external network into APIC constructs within the ACI Policy Model.
 - An OpFlex proxy from the ACI leaf switch exchanges policy information with the Agent-OVS instance in each compute host, effectively extending the ACI switch fabric and policy model into the virtual switch resulting in a cohesive system that can apply networking policy anywhere in the combined virtual and physical switching fabric starting from the virtual port where a VM instance attaches to the network.
 
 
-
 <!-- .slide: data-state="normal" id="opflex-agent-1" data-menu-title="Opflex Agent Architecture on Compute" class="aci-openstack" data-timing="40" -->
-## Opflex Agent on OpenStack Compute
+## OpFlex Agent on OpenStack Compute
 
 <figure>
   <img alt="OpenStack with ACI architecture with OpFlex ML2" 
@@ -43,7 +47,11 @@ Note:
 />
 </figure>
 
-<!-- .slide: data-state="normal" id="opflex-agent-2" data-menu-title="Opflex Agent Architecture on Compute" class="aci-openstack" data-timing="40" -->
+Note:
+- Description in next slide
+
+
+<!-- .slide: data-state="normal" id="opflex-agent-2" data-menu-title="Opflex Agent Architecture on Compute" class="aci" data-timing="40" -->
 ## Opflex Agent on OpenStack Compute
 
 *   <!-- .element: class="fragment" -->
@@ -70,6 +78,7 @@ Note:
     DHCP - Distributed DORA functionality and optimized mode
 *   <!-- .element: class="fragment" -->
     Metadata Proxy - option to use distributed or traditional approach 
+
 
 <!-- .slide: data-state="normal" id="distributed-neutron-2" data-menu-title="Distributed Neutron Services" class="aci-openstack" data-timing="40" -->
 ## Distributed Neutron Services

@@ -25,6 +25,7 @@
     />
 </figure>
 
+
 <!-- .slide: data-state="normal" id="aci-fabric-2" data-menu-title="ACI Fabric" class="aci" data-timing="40" -->
 ## ACI Fabric
 
@@ -80,6 +81,7 @@ Note:
         data-src="images/aci-policy-model.jpg"
         alt="ACI Policy Model" />
 </div>
+
 
 <!-- .slide: data-state="normal" id="aci-policy-model-2" data-menu-title="ACI Policy Model" class="aci" data-timing="40" -->
 ## ACI Policy Model
