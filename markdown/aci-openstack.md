@@ -22,11 +22,11 @@
 <!-- .slide: data-state="normal" id="opflex-ml2-2" data-menu-title="Opflex ML2 Software Architecture" class="aci-openstack" data-timing="40" -->
 ## OpenStack with ACI and OpFlex ML2
 
-<div class="opflex-openstack">
-  <img class="opflex-ml2"
+<figure>
+  <img alt="OpenStack with ACI architecture with OpFlex ML2"
       data-src="images/opflexml2-openstack.jpg"
-      alt="OpenStack with ACI architecture with OpFlex ML2" />
-</div>
+/>
+</figure>
 
 Note:
 - The APIC mechanism driver translates Neutron networking elements such as a network, subnet, router or external network into APIC constructs within the ACI Policy Model.
@@ -37,11 +37,11 @@ Note:
 <!-- .slide: data-state="normal" id="opflex-agent-1" data-menu-title="Opflex Agent Architecture on Compute" class="aci-openstack" data-timing="40" -->
 ## Opflex Agent on OpenStack Compute
 
-<div class="opflex-openstack">
-  <img class="opflex-ml2"
+<figure>
+  <img alt="OpenStack with ACI architecture with OpFlex ML2" 
       data-src="images/opflexml2-openstack.jpg"
-      alt="OpenStack with ACI architecture with OpFlex ML2" />
-</div>
+/>
+</figure>
 
 <!-- .slide: data-state="normal" id="opflex-agent-2" data-menu-title="Opflex Agent Architecture on Compute" class="aci-openstack" data-timing="40" -->
 ## Opflex Agent on OpenStack Compute
@@ -74,11 +74,11 @@ Note:
 <!-- .slide: data-state="normal" id="distributed-neutron-2" data-menu-title="Distributed Neutron Services" class="aci-openstack" data-timing="40" -->
 ## Distributed Neutron Services
 
-<div class="opflex-openstack">
-  <img class="distributed-neutron"
+<figure>
+  <img alt="Logical OpenStack Network Connectivity with Distributed Neutron Services" 
       data-src="images/distributed-neutron.jpg"
-      alt="Logical OpenStack Network Connectivity with Distributed Neutron Services" />
-</div>
+/>
+</figure>
 
 Note: 
 

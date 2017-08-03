@@ -19,11 +19,11 @@
 <!-- .slide: data-state="normal" id="aci-fabric-1" data-menu-title="ACI Fabric" class="aci" data-timing="40" -->
 ## ACI Fabric
 
-<div class="apic-concept">
-    <img class="aci-fabric"
+<figure>
+    <img alt="ACI Fabric Overview" />
         data-src="images/aci-fabric.jpg" 
-        alt="ACI Fabric Overview" />
-</div>
+    />
+</figure>
 
 <!-- .slide: data-state="normal" id="aci-fabric-2" data-menu-title="ACI Fabric" class="aci" data-timing="40" -->
 ## ACI Fabric
