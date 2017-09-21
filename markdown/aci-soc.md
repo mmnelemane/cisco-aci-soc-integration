@@ -28,21 +28,22 @@ Note:
 *   <!-- .element: class="fragment" -->
     On each compute node (From Yast2):
     *   <!-- .element: class="fragment" -->
-         - Setup ethernet device to be connected to the fabric
+        Setup ethernet device to be connected to the fabric
     *   <!-- .element: class="fragment" -->
-         - Create and Configure VLAN on the device
+        Create and Configure VLAN on the device
     *   <!-- .element: class="fragment" -->
-         - Create Routing for the VLAN
+        Create Routing for the VLAN
     *   <!-- .element: class="fragment" -->
-         - Enable DHCP and set MTU to 1600
+        Enable DHCP and set MTU to 1600
     *   <!-- .element: class="fragment" -->
-         - Create a tunnel bridge with VXLAN
+        Create a tunnel bridge with VXLAN
     *   <!-- .element: class="fragment" -->
-         - Note the interface name from the lldpctl results (look for PortDescr: field)
+        Note the interface name from the lldpctl results (look for PortDescr: field)
 *   <!-- .element: class="fragment" -->
     Fill up the necessary paramaters for ACI on the Crowbar UI (network_type, ml2_driver, IPs, user/password etc)
 *   <!-- .element: class="fragment" -->
-    Apply the neutron barclamp and go ahead with nova, horizon or other necessary barclamps.
+    Apply the neutron barclamp and go ahead with nova, horizon or other necessary barclamps and have fun!!!
 
 Note:
-- Hope these steps work
+
+- Hope these steps work as expected
