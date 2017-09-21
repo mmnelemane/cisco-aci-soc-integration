@@ -17,8 +17,8 @@ Note:
 
 
 <!-- .slide: data-state="normal" id="aci-soc-steps" data-menu-title="ACI SOC Integration Steps" class="aci-soc" data-timing="40" -->
-## ACI-SOC Integration Steps (Summary)
-
+## ACI-SOC Integration Steps - Summary
+ 
 *   <!-- .element: class="fragment" -->
     Install SUSE OpenStack Cloud until and not including the Neutron barclamp
 *   <!-- .element: class="fragment" -->
@@ -27,17 +27,17 @@ Note:
     Install OpenVswitch packages on all nodes and lock them and start ovs service
 *   <!-- .element: class="fragment" -->
     On each compute node (From Yast2):
-       <!-- .element: class="fragment" -->
+    *   <!-- .element: class="fragment" -->
          - Setup ethernet device to be connected to the fabric
-       <!-- .element: class="fragment" -->
+    *   <!-- .element: class="fragment" -->
          - Create and Configure VLAN on the device
-       <!-- .element: class="fragment" -->
+    *   <!-- .element: class="fragment" -->
          - Create Routing for the VLAN
-       <!-- .element: class="fragment" -->
+    *   <!-- .element: class="fragment" -->
          - Enable DHCP and set MTU to 1600
-       <!-- .element: class="fragment" -->
+    *   <!-- .element: class="fragment" -->
          - Create a tunnel bridge with VXLAN
-       <!-- .element: class="fragment" -->
+    *   <!-- .element: class="fragment" -->
          - Note the interface name from the lldpctl results (look for PortDescr: field)
 *   <!-- .element: class="fragment" -->
     Fill up the necessary paramaters for ACI on the Crowbar UI (network_type, ml2_driver, IPs, user/password etc)
@@ -46,4 +46,3 @@ Note:
 
     Note:
     - Hope these steps work
-    
