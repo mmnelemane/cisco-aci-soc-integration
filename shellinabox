@@ -1,0 +1,15 @@
+#!/bin/sh
+
+PIDFILE="`dirname $0`/shellinabox.pid"
+
+shellinaboxd \
+    --background="$PIDFILE" \
+    --localhost-only \
+    --no-beep \
+    --disable-ssl \
+    --port=4101 \
+    --css=./css/shellinabox.scss \
+    --service /:$USER:`groups`:HOME:"screen -xRR"
+
+echo "shellinaboxd started, pid `cat $PIDFILE`"
+
