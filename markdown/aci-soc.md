@@ -43,4 +43,7 @@ Note:
     Fill up the necessary paramaters for ACI on the Crowbar UI (network_type, ml2_driver, IPs, user/password etc)
 *   <!-- .element: class="fragment" -->
     Apply the neutron barclamp and go ahead with nova, horizon or other necessary barclamps.
+
+    Note:
+    - Hope these steps work
     
