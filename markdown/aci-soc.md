@@ -44,5 +44,5 @@ Note:
 *   <!-- .element: class="fragment" -->
     Apply the neutron barclamp and go ahead with nova, horizon or other necessary barclamps.
 
-    Note:
-    - Hope these steps work
+Note:
+- Hope these steps work
